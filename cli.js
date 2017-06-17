@@ -27,5 +27,10 @@ if (cli.input[0] !== undefined) {
 }
 
 longitude(cli.input[0]).then(data => {
-	console.log(data);
+	for (let key in data) {
+		if (data[key] !== '') {
+			let k = key.replace(/_|-/g, " ");
+			console.log(k + ': ' + (data[key] || ''));
+		}
+	}
 });
