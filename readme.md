@@ -19,6 +19,10 @@ longitude 8.8.8.8
 longitude
 ```
 
+## Related
+- [longitude](https://github.com/tobihrbr/longitude) - Geoip for node.js
+- [longitude-client](https://github.com/tobihrbr/longitude-client) - Geoip for browsers
+
 ## License
 
 MIT © [Tobias Herber](https://tobihrbr.com)
