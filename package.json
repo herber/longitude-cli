@@ -1,0 +1,41 @@
+{
+  "name": "longitude-cli",
+  "version": "0.1.0",
+  "description": "Cli for longitude",
+  "license": "MIT",
+  "repository": "tobihrbr/longitude-cli",
+  "author": {
+    "name": "tobihrbr",
+    "email": "tobihrbr@gmail.com",
+    "url": "tobihrbr.com"
+  },
+  "bin": {
+    "longitude": "cli.js"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "test": "fyi",
+    "test-watch": "fyi --watch"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    ""
+  ],
+  "dependencies": {
+    "is-ip": "^2.0.0",
+    "longitude": "^0.1.1",
+    "meow": "^3.7.0"
+  },
+  "devDependencies": {
+    "fyi": "^0.1.5"
+  },
+  "fyi": {
+    "ignore": []
+  }
+}
